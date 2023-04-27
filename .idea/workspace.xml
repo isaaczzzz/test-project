@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3b7f4e-d594-4829-a401-996a21ad74a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SaleMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SaleMachineFuncTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SaleMachinePathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SaleMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/src/main/java/SaleMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaleMachineFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/src/test/java/SaleMachineFuncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaleMachinePathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/src/test/java/SaleMachinePathTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2OxAoA4cY2EB2wYhzbWpYmfBccn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/isaac/IdeaProjects/test-project-1/src/main/java",
+    "last_opened_file_path": "C:/Users/isaac/IdeaProjects/test-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +61,39 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\isaac\IdeaProjects\test-project-1\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\isaac\IdeaProjects\test-project\test-project-1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SaleMachinePathTest.testOperationS1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-project-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SaleMachinePathTest" />
+      <option name="METHOD_NAME" value="testOperationS1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="test-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="test-project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SaleMachinePathTest.testOperationS1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682492034166</updated>
       <workItem from="1682492035447" duration="4542000" />
+      <workItem from="1682572327246" duration="137000" />
     </task>
     <servers />
   </component>
