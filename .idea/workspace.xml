@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3b7f4e-d594-4829-a401-996a21ad74a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-project-1/流程图.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-project-1/src/main/java/SaleMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/src/main/java/SaleMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-project-1/src/test/java/SaleMachineFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/src/test/java/SaleMachineFuncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-project-1/src/test/java/SaleMachinePathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-project-1/src/test/java/SaleMachinePathTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <recent name="C:\Users\isaac\IdeaProjects\test-project\test-project-1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SaleMachinePathTest">
+  <component name="RunManager" selected="JUnit.SaleMachinePathTest.testInitial">
     <configuration name="SaleMachineFuncTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-project-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,11 +80,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaleMachineFuncTest.testFunc1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-project-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SaleMachineFuncTest" />
+      <option name="METHOD_NAME" value="testFunc1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SaleMachinePathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-project-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SaleMachinePathTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleMachinePathTest.testInitial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-project-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SaleMachinePathTest" />
+      <option name="METHOD_NAME" value="testInitial" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,8 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SaleMachinePathTest" />
+        <item itemvalue="JUnit.SaleMachinePathTest.testInitial" />
         <item itemvalue="JUnit.SaleMachineFuncTest" />
+        <item itemvalue="JUnit.SaleMachinePathTest" />
+        <item itemvalue="JUnit.SaleMachineFuncTest.testFunc1" />
         <item itemvalue="JUnit.SaleMachinePathTest.testOperationS1" />
       </list>
     </recent_temporary>

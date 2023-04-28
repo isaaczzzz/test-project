@@ -1,6 +1,4 @@
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class SaleMachinePathTest {
@@ -57,7 +55,7 @@ public class SaleMachinePathTest {
         // 投入1元，选择啤酒，有啤酒
         // 5个5角，5个1元，5瓶啤酒，5瓶橙汁
         SaleMachine saleMachine = new SaleMachine(5, 5, 5, 5);
-        String expected = "Input Information \n" + "Type: Beer; Money: 1 Yuan; Change: 0\n\n";
+        String expected = "Input Information \n" + "Type: Beer; Money: 1 Yuan; Change: 5 Jiao\n\n";
         String actual = saleMachine.operation("Beer", "1Y");
         Assertions.assertEquals(expected, actual);
     }
@@ -75,7 +73,7 @@ public class SaleMachinePathTest {
         // 投入1元，选择橙汁，有橙汁
         // 5个5角，5个1元，5瓶啤酒，5瓶橙汁
         SaleMachine saleMachine = new SaleMachine(5, 5, 5, 5);
-        String expected = "Input Information \n" + "Type: OrangeJuice; Money: 1 Yuan; Change: 0\n\n";
+        String expected = "Input Information \n" + "Type: OrangeJuice; Money: 1 Yuan; Change: 5 Jiao\n\n";
         String actual = saleMachine.operation("OrangeJuice", "1Y");
         Assertions.assertEquals(expected, actual);
     }

@@ -65,7 +65,7 @@ public class SaleMachine {
 				} else // 没有橙汁，输出橙汁短缺信息
 				{
 					// 路径S4输出信息
-					resultOfDeal = "Failure Information \n" + "Type Error";
+					resultOfDeal = "Failure Information \n" + "OrangeJuice Shortage";
 					return resultOfDeal;
 				}
 			} else // 既不是啤酒也不是橙汁，输出类型错误信息
@@ -81,7 +81,7 @@ public class SaleMachine {
 				if (type != null && type.equals(typeOfGoods[0]))// 如果客户选择啤酒
 				{
 					// 路径S6输出信息,如果客户选择啤酒而且还有啤酒
-					if (countOfBeer >= 0) {
+					if (countOfBeer > 0) {
 						countOfBeer--;
 						countOfFiveJiao++;
 						countOfOneYuan++;
@@ -99,7 +99,7 @@ public class SaleMachine {
 						countOfOrangeJuice--;
 						countOfFiveJiao--;
 						countOfOneYuan++;
-						resultOfDeal = "Input Information: \n" + "Type: OrangeJuice; Money: 1 Yuan; Change: 5 Jiao\n\n";
+						resultOfDeal = "Input Information \n" + "Type: OrangeJuice; Money: 1 Yuan; Change: 5 Jiao\n\n";
 						return resultOfDeal;
 					} else {// 没有橙汁，输出橙汁短缺信息
 						// 路径S9输出信息
