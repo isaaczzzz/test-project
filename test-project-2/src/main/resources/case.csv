@@ -1,0 +1,5 @@
+username,password,expected
+"jojo","bean","Welcome"
+"jojo","qqq","Web Tours Error - Incorrect Password"
+"tttt","safdsghj","Web Tours Error – User Not Found"
+"","asda","Web Tours Error – Username Cannot Be Empty"
